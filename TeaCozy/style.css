@@ -1,0 +1,203 @@
+body {
+  background-color: black;
+  overflow: scroll;
+  align-items: center;
+  text-align: center;
+  font-family: Helvetica;
+}
+/* Banner + Nav Bar */
+.header {
+  background-color: black;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  height: 69px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 20;
+}
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+.header nav {
+  display: inline-block;
+  text-decoration: underline;
+  font-size: 22px;
+  font-style: bold;
+}
+.header span {
+  margin: 10px;
+}
+.header a {
+  color: white;
+}
+.header .logo {
+  display: inline-flex;
+}
+/* Main Body */
+.mainBody {
+  top: 200px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+  height: 700px;
+}
+.ourMission {
+  background-color: black;
+  color: white;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  top: 450px;
+  z-index: 15;
+  width: 100%;
+  align-items: center;
+}
+.ourMission p {
+  font-size: 22px;
+}
+.ourMission h2 {
+  font-size: 28px;
+  margin-top: 6px;
+}
+.TOM {
+  height: 100px;
+  color: white;
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 40px;
+  text-align: center;
+  display: block;
+}
+.TOM h1 {
+  font-size: 28px;
+}
+.TOM h3 {
+  font-size: 22px;
+}
+.item {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-flow: row;
+  padding: 5px 5px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.item img {
+ width: 300px;
+ height: 200px;
+}
+.caption {
+    display: block;
+}
+/* Location Section */
+.locations {
+  text-align: center;
+  margin-top: 100px;
+  height: 500px;
+  padding-left: 0px;
+  padding-right: 0px;
+  opacity: 0.5;
+  position: relative;
+}
+.locations h1 {
+  color: white;
+  position: absolute;
+  text-align: center;
+  z-index: 16;
+  width: 100%;
+  top: 80px;
+  color: lightgray;
+  font-size: 48px;
+}
+.locBoxes {
+}
+div.locBox1 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  position: relative;
+  z-index: 17;
+  display: inline-block;
+  text-align: center;
+  bottom: 600px;
+  margin-right: 20px;
+}
+div.locBox2 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  position: relative;
+  z-index: 18;
+  display: inline-block;
+  text-align: center;
+  bottom: 600px;
+}
+div.locBox3 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  position: relative;
+  z-index: 19;
+  display: inline-block;
+  text-align: center;
+  bottom: 600px;
+  margin-left: 20px;
+}
+.locBox1,
+.locBox2,
+.locBox3 {
+  color: lightgray;
+  vertical-align: center;
+}
+.locBox1,
+.locBox2,
+.locBox3,
+h3 {
+  font-style: bold;
+}
+.locBox1,
+.locBox2,
+.locBox3,
+span {
+  font-size: 24px;
+}
+/*Footer and Copyright */
+.bottomOfPage {
+  position: relative;
+}
+.footer {
+  height: 200px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 300px;
+  text-align: center;
+}
+.footer h4 {
+  font-size: 22px;
+}
+.copyright {
+  color: white;
+  top: 700px;
+  height: 30px;
+  width: 100%;
+  text-align: left;
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 16px;
+}
